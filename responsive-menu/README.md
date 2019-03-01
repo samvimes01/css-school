@@ -1,1 +1,1 @@
-The task is to add HTML and CSS to the `menu-task.html` so that the result corresponded behavior as depicted in screenshots and `screencast.gif`
+The task is to add HTML and CSS to the `menu-task.html` so that the result corresponded behavior as depicted in screenshots and `screencast.gif`. The solution has to work properly or gracefully degrade in all the major browsers and IE11.
