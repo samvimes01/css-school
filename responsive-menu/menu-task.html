@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Burger menu</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-
     <style>
         body {
             font: 16px/1.2 Source Sans Pro, sans-serif;
@@ -15,13 +16,31 @@
         }
 
         .container {
+            position: relative;
+            top: 60px;
             max-width: 1000px;
             margin: 0 auto;
             padding: 0 10px;
         }
     </style>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
+<span id="preload"><span></span></span>
+<label for="trigger"><div id="menu-btn"></div></label>
+<input type="checkbox" id="trigger" />
+<header class="header">
+  <nav>
+      <ul>
+          <li>Home</li>
+          <li><a href="#">New arrivals</a></li>
+          <li><a href="#">Shipping and Payment<a/></li>
+          <li><a href="#">Returns<a/></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#"  class="user">Sign In</a></li>
+      </ul>    
+  </nav>
+</header>
 <article class="container">
     <h1>Hamburger button</h1>
     <small>From Wikipedia, the free encyclopedia</small>
