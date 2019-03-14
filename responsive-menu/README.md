@@ -5,4 +5,4 @@ The task is to add HTML and CSS to the `menu-task.html` so that the result corre
 ## Task solution
 
 1. [Working version](https://samvimes01.github.io/css-school/responsive-menu/menu-task.html) 
-2. [Pull request](https://github.com/samvimes01/css-school/pull/1/files)
+2. [Pull request](https://github.com/samvimes01/css-school/pull/2/files)
